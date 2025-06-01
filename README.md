@@ -24,3 +24,8 @@ SystemVerilog Simulation
 
 UVM Simulation
 <div align="center"> <img src="/spi_simulation_results/uvm_tb_results/uvm_eda_waveforms.png"> </div> 
+
+---
+## Console Info
+- Console outputs from Vivado Simulator (for SV simulation) and EDA Playground (for UVM simulation)
+are included in 'spi_simulation_results' file.
