@@ -17,8 +17,10 @@ SPI (Serial Peripheral Interface) is a high-speed, full-duplex, synchronous seri
 used to connect microcontrollers with peripheral devices like sensors, displays, and memory. It uses four 
 main lines: MOSI (Master Out Slave In), MISO (Master In Slave Out), SCLK (Serial Clock), and CS/SS 
 (Chip Select/Slave Select). SPI is fast and simple, but requires more wires compared to protocols like I²C.
+---
 ## Simulation Screenshots
-- SystemVerilog Simulation
+SystemVerilog Simulation
 <div align="center"> <img src="/spi_simulation_results/sv_tb_results/vivado_waveforms.png"> </div>
-- UVM Simulation
+
+UVM Simulation
 <div align="center"> <img src="/spi_simulation_results/uvm_tb_results/uvm_eda_waveforms.png"> </div> 
