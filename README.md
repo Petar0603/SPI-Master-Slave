@@ -17,6 +17,9 @@ low after the transmission has finished in 'spi_master' module.
 Master frequency and slave frequency can be modified in 'spi_top', in this module 'spi_master'
 and 'spi_slave' are connected with 'sclk_generator'.
 
+Testbench files are in 'spi_tb_sv' and 'spi_tb_uvm' folders. (Both include 'spi_pkg' packages
+with all of the classes included: driver, monitor, scoreboard etc.)
+
 ---
 ## Simulation Screenshots
 SystemVerilog Simulation
