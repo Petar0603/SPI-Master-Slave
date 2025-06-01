@@ -21,6 +21,10 @@ Testbench files are in 'spi_tb_sv' and 'spi_tb_uvm' folders. (Both include 'spi_
 with all of the classes included: driver, monitor, scoreboard etc.)
 
 ---
+## Schematic
+<div align="center"> <img src="/spi_design/schematic.png"> </div>
+
+---
 ## Simulation Screenshots
 SystemVerilog Simulation
 <div align="center"> <img src="/spi_simulation_results/sv_tb_results/vivado_waveforms.png"> </div>
