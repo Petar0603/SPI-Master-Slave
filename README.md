@@ -1,5 +1,7 @@
 # SPI-Master-Slave
-- SPI module designed in Verilog and verified in SystemVerilog and UVM.
+
+SPI module designed in Verilog and verified in SystemVerilog and UVM.
+
 ---
 ## About
 'Req' signal in 'spi_master' module is used to select one of the following modes:
