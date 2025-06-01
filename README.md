@@ -8,10 +8,10 @@
 - 10 -> Reception (Slave -> Master),
 - 11 -> Full duplex (Master -> Slave & Slave -> Master).
 
-- 'Wait_duration' is a register where 8 bit value is stored, this value is used to determine
+'Wait_duration' is a register where 8 bit value is stored, this value is used to determine
 a delay when CS is pulled low to when data transmission starts in 'spi_master' module.
 
-- Master frequency and slave frequency can be modified in 'spi_top', in this module 'spi_master'
+Master frequency and slave frequency can be modified in 'spi_top', in this module 'spi_master'
 and 'spi_slave' are connected with 'sclk_generator'.
 
 ---
